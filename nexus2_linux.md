@@ -213,7 +213,7 @@ Nexus是一个强大的Maven仓库管理器，它极大地简化了自己内部�
 	      <!--This sends everything else to /public -->
 	      <id>nexus</id>
 	      <mirrorOf>*</mirrorOf>
-	      <url>http://cslvln.com:8081/nexus/content/groups/public</url>
+	      <url>http://nexus.cslvln.com:8081/nexus/content/groups/public</url>
 	    </mirror>
 	  </mirrors>
 	
@@ -375,12 +375,12 @@ Nexus是一个强大的Maven仓库管理器，它极大地简化了自己内部�
 	        <repository>
 	            <id>releases</id>
 	            <name>Releases</name>
-	            <url>http://cslvln.com:8081/nexus/content/repositories/releases</url>
+	            <url>http://nexus.cslvln.com:8081/nexus/content/repositories/releases</url>
 	        </repository>
 	        <snapshotRepository>
 	            <id>snapshots</id>
 	            <name>Snapshot</name>
-	            <url>http://cslvln.com:8081/nexus/content/repositories/snapshots</url>
+	            <url>http://nexus.cslvln.com:8081/nexus/content/repositories/snapshots</url>
 	        </snapshotRepository>
 	    </distributionManagement>
 	
