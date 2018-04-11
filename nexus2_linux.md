@@ -1,4 +1,4 @@
-#linux上怎么搭建nexus2
+# linux上怎么搭建nexus2
 
 ## 准备工作
 
